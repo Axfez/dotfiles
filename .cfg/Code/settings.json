@@ -1,0 +1,119 @@
+{
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "rome.rome",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.rome": true,
+      "source.organizeImports": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "rome.rome",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.rome": true,
+      "source.organizeImports": true
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "rome.rome",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.rome": true,
+      "source.organizeImports": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rome.rome",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.rome": true,
+      "source.organizeImports": true
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "workbench.sideBar.location": "right",
+  "editor.autoClosingBrackets": "always",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fragment Mono', 'Roboto mono'",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 2,
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "terminal.integrated.fontSize": 16,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.linkedEditing": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.stickyScroll.enabled": true,
+  "git.autofetch": true,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "terminal.integrated.env.linux": {},
+  "errorLens.exclude": [
+    "\"frameloop\": Unknown word\\."
+  ],
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.glyphMargin": false,
+  "workbench.startupEditor": "none",
+  "emmet.showSuggestionsAsSnippets": true,
+  "reactSnippets.settings.prettierEnabled": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorTheme": "Kanagawa",
+  "editor.tabSize": 2,
+  "diffEditor.codeLens": true,
+  "diffEditor.diffAlgorithm": "advanced",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "codeium.enableConfig": {
+    "*": true
+  },
+  "redhat.telemetry.enabled": false,
+  "rapidapi.terminalLink.enabled": false,
+  // ENFOCADO INDISTRACTABLE SETUP: 
+  // Clean the editor of useless stuff.
+  "window.menuBarVisibility": "toggle",
+  "editor.renderLineHighlight": "none",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "off",
+  // Disable unseless icons.
+  "workbench.editor.showIcons": false,
+  "workbench.editor.tabSizing": "fit",
+  // Disable explorer and tabs colors in filenames.
+  "explorer.decorations.colors": false,
+  "workbench.editor.decorations.colors": false,
+  // Enable explorer and tabs colors in filename's badges.
+  "explorer.decorations.badges": true,
+  "workbench.editor.decorations.badges": true,
+  // Enable semantic highlighting syntax.
+  "editor.semanticHighlighting.enabled": true,
+  // Enable bracket pair colorization.
+  "editor.bracketPairColorization.enabled": true,
+  // Enable indent lines with colorization pairs.
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+  // Show only trailing whitespaces.
+  "editor.renderWhitespace": "trailing",
+  // Customize only the editor font to make it stand out from the rest.
+  "editor.fontSize": 18,
+  "editor.fontWeight": "500",
+  "editor.letterSpacing": 0.9,
+  "editor.lineHeight": 1.8,
+  "workbench.statusBar.visible": false,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.settings.editor": "json"
+}
